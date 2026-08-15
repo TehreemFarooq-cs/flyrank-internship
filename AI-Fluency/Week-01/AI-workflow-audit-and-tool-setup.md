@@ -1,3 +1,4 @@
+# Workflow Audit
 | Task # | Task Description | Classification | Rationale |
 | :--- | :--- | :--- | :--- |
 | 1 | Drafting professional emails | **Delegate to AI with review** | AI refines tone and grammar, while I do a quick check before hitting send. |
