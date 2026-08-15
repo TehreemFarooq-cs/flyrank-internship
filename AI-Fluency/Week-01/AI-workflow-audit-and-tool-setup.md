@@ -1,4 +1,4 @@
-# Workflow Audit and Tool Setup
+# AI Workflow Audit and Tool Setup
 
 ## 1. Workflow Audit 
 | Task # | Task Description | Classification | Rationale |
@@ -19,3 +19,34 @@
 
 ## 3. Claude Project Configuration
 ![Claude Project Configuration](./images/claude-project-configuration.png)
+
+## 4. Target Tasks & Success Definitions
+Task 1: Fixing state bugs and re-renders in my Mini Study Group App (React Native)
+
+Classification: Collaborate with AI
+
+Definition of "Done Well":
+
+The screen renders smoothly with no infinite re-render loops or unexpected crashes.
+
+TypeScript throws zero prop or hook type errors.
+
+Task 2: Writing Firebase Firestore security rules and data models for group chats
+
+Classification: Collaborate with AI
+
+Definition of "Done Well":
+
+Collection schemas and document structures are cleanly mapped without redundant fields.
+
+Security rules accurately allow only authenticated group members to read/write chat messages.
+
+Task 3: Making dummy JSON data to test lists and component state in my app
+
+Classification: Delegate to AI with review
+
+Definition of "Done Well":
+
+Generated JSON key names strictly match my TypeScript interface definitions.
+
+Mock data includes edge cases (e.g., long strings, empty arrays, missing profile pictures) to test UI limits.
