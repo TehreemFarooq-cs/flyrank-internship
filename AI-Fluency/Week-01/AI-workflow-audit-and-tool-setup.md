@@ -15,4 +15,4 @@
 | 10 | Writing Firebase Firestore security rules and data models for group chats | **Collaborate with AI** | AI gives me a good starting template for rules, but I have to manually verify user permissions. |
 
 ## 2. Tool Setup
-![Anthropic Academy](./anthropic-academy.png)
+![Anthropic Academy](./images/anthropic-academy.png)
