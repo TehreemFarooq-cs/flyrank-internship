@@ -16,3 +16,6 @@
 
 ## 2. Tool Setup
 ![Anthropic Academy](./images/anthropic-academy.png)
+
+## 3. Claude Project Configuration
+![Claude Project Configuration](./images/claude-project-configuration.png)
