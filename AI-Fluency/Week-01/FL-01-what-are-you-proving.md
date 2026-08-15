@@ -1,4 +1,4 @@
-# FL-01: What Are You Proving?
+# What Are You Proving?
 
 ## My Proof Statement
 
