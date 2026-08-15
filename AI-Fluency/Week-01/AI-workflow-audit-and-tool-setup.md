@@ -1,4 +1,6 @@
-# Workflow Audit
+# Workflow Audit and Tool Setup
+
+## Workflow Audit 
 | Task # | Task Description | Classification | Rationale |
 | :--- | :--- | :--- | :--- |
 | 1 | Drafting professional emails | **Delegate to AI with review** | AI refines tone and grammar, while I do a quick check before hitting send. |
@@ -11,3 +13,5 @@
 | 8 | Making dummy JSON data to test lists and component state in my app | **Delegate to AI with review** | AI creates fake user and group data in seconds. I just check the fields and use it. |
 | 9 | Fixing state bugs and re-renders in my *Mini Study Group App* (React Native) | **Collaborate with AI** | AI helps me spot broken hooks fast, but I still need to check how the logic fits my screen components. |
 | 10 | Writing Firebase Firestore security rules and data models for group chats | **Collaborate with AI** | AI gives me a good starting template for rules, but I have to manually verify user permissions. |
+
+## Tool Setup
