@@ -1,4 +1,4 @@
-# FL-02: Draw the Path: Portfolio Sitemap + Toolkit
+# Draw the Path: Portfolio Sitemap + Toolkit
 
 ## 1. Initial Portfolio Layout
 ![Portfolio Sitemap](./images/sitemap.jpeg)
