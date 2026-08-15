@@ -4,8 +4,8 @@
 | 2 | Summarizing long technical articles, documentation or API guides | **Delegate to AI with review** | AI pulls key points from long docs quickly. |
 | 3 | Reflecting on personal career goals, learning progress and project ideas | **Just me** | Personal goals and career direction require honest self-reflection that AI cannot do for me. |
 | 4 | Studying theoretical concepts | **Just me** | I need to actually understand core CS concepts myself for exams and academic integrity. 
-| 5 | Checking out npm libraries or tools to see if they fit a frontend feature | **Delegate to AI with review** | AI summarizes what a library does, but I check if it's maintained well and not too heavy. |
-| 6 | Converting plain JavaScript code into strictly typed TypeScript files | **Collaborate with AI** | AI suggests interface types, while I test edge cases and handle null values. |
+| 5 | Checking out npm libraries or tools to see if they fit a frontend feature | **Delegate to AI with review** | Good for a quick summary of what a package does, but I still check if it's outdated. |
+| 6 | Converting plain JavaScript code into strictly typed TypeScript files | **Collaborate with AI** | Saves time writing boilerplate types, then I fix any bad types or edge cases it missed. |
 | 7 | Making dummy JSON data to test lists and component state in my app | **Delegate to AI with review** | AI creates fake user and group data in seconds, so I just check the format and use it. |
 | 8 | Fixing state bugs and re-renders in my *Mini Study Group App* (React Native) | **Collaborate with AI** | AI helps me spot broken hooks fast, but I still need to check how the logic fits my screen components. |
 | 9 | Writing Firebase Firestore security rules and data models for group chats | **Collaborate with AI** | AI gives me a good starting template for rules, but I have to manually verify user permissions. |
