@@ -7,7 +7,7 @@
 
 ## 2. Frame, Not Upstage Rule
 * **The Rule:** The portfolio's visual design must act as a neutral gallery frame that directs recruiter attention entirely to the technical case studies, code architecture and live data outputs. 
-* **Application:** Avoid flashy decorative backgrounds, complex CSS animations, or saturated color gradients. The UI should remain understated so that the functional proof—such as the medication inventory table and refill forecast charts—stands out immediately.
+* **Application:** Avoid flashy decorative backgrounds, complex CSS animations, or saturated color gradients. The UI should remain understated so that the functional proof - such as the medication inventory table and refill forecast charts - stands out immediately.
 
 ## 3. Asset & Image Governance
 * **Real Screenshots Over AI Generation:** Prioritize actual UI captures of the working React application, component trees and terminal execution logs for functional proof.
