@@ -7,7 +7,7 @@
 
 ## Version 0: Naive Baseline
 * **Prompt:** Convert this JavaScript to TypeScript.
-* **Output:** A code block containing the converted file, but missing explicit interfaces for complex nested objects, relying on `any` types for function parameters, and using loose type assertions.
+* **Output:** A code block containing the converted file, but missing explicit interfaces for complex nested objects, relying on `any` types for function parameters and using loose type assertions.
 * **Iteration Note:** 
   * *Technique Applied:* None (Naive baseline).
   * *Observed Output Difference:* The AI provided a generic type conversion that immediately threw TypeScript compiler errors due to implicit `any` definitions and missing structural types for nested data objects.
@@ -58,7 +58,7 @@
 
 ## Version 5: Step Decomposition (Final Prompt)
 * **Prompt:** You are a senior front-end software architect specializing in strict enterprise TypeScript codebases. Convert JavaScript to TypeScript for a production React Native application by following these sequential steps:
-  1. Analyze the raw JavaScript file to identify all data structures, parameters, and return types.
+  1. Analyze the raw JavaScript file to identify all data structures, parameters and return types.
   2. Write explicit TypeScript interfaces for every data model without using `any` or `Record<string, unknown>`.
   3. Refactor the functions step-by-step, applying strict typing to parameters and return values.
   4. Verify that the final code complies with strict TypeScript compiler options.
@@ -71,7 +71,7 @@
 ---
 
 ## Cross-Model Comparison (Claude vs. ChatGPT)
-* **Claude (Claude 3.5 Sonnet):** Produced cleaner modular structures, naturally avoided implicit `any` types even without strict few-shot enforcement in earlier versions, and maintained idiomatic React Native patterns.
+* **Claude (Claude 3.5 Sonnet):** Produced cleaner modular structures, naturally avoided implicit `any` types even without strict few-shot enforcement in earlier versions and maintained idiomatic React Native patterns.
 * **ChatGPT (GPT-4o):** Required the explicit step decomposition and few-shot examples to match Claude's rigor; otherwise, it tended to fall back on `Record<string, any>` types to bypass complex object structures quickly.
 
 ---
@@ -80,9 +80,9 @@
 
 ```markdown
 You are a senior front-end software architect specializing in strict enterprise TypeScript codebases. Convert the provided JavaScript file to strict TypeScript for a production application by following these sequential steps:
-1. Analyze the raw JavaScript code to identify all data models, parameters, and return types.
+1. Analyze the raw JavaScript code to identify all data models, parameters and return types.
 2. Write explicit TypeScript interfaces for every data structure without using `any`.
-3. Refactor the implementation step-by-step, applying strict typing to all functions, hooks, and props.
+3. Refactor the implementation step-by-step, applying strict typing to all functions, hooks and props.
 
 Follow this interface convention:
 - Input JS: [INSERT EXAMPLE JS]
