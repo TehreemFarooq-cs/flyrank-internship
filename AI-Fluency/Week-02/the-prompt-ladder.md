@@ -73,5 +73,5 @@ Build a React and TypeScript web app for [SPECIFY APP PURPOSE, e.g., tracking re
 Integrate [SPECIFY API OR DATA SOURCE], including error handling and payload limits. 
 Format the output as clean, modular component files with clear file headers. 
 Constrain styling to [SPECIFY CSS APPROACH, e.g., Tailwind CSS] without external UI component libraries. 
-Quality criteria: Every data model and API response must have explicit TypeScript interfaces, and missing assets must include fallback UI states. 
+Quality criteria: Every data model and API response must have explicit TypeScript interfaces and missing assets must include fallback UI states. 
 Verification requirement: Include the required package dependencies and a short terminal command guide to run the code locally.
