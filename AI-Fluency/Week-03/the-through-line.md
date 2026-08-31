@@ -1,7 +1,7 @@
 # Portfolio Content Map & Through-line
 
 ## 1. The One-Line Claim
-> "Front-end AI engineer building rigorous, data-driven web and mobile applications with strict TypeScript and modern UI architecture."
+> "Frontend AI engineer building rigorous, data-driven web and mobile applications with strict TypeScript and modern UI architecture."
 
 ---
 
