@@ -1,8 +1,8 @@
-# The Prompt Ladder: Front-End AI Engineering
+# The Prompt Ladder
 
 ## Baseline (Version 0)
 * **The Prompt:** Build a web app.
-* **The Output:** A generic response asking me what kind of app I want to build and listing basic technologies like HTML, CSS, and JavaScript.
+* **The Output:** A generic response asking me what kind of app I want to build and listing basic technologies like HTML, CSS and JavaScript.
 * **The Four Notes:**
   * **What changed in the prompt:** Nothing, this is the starting baseline.
   * **What improved in the output:** Nothing; it is completely vague and unhelpful.
@@ -15,26 +15,26 @@
 * **The Prompt:** Build a React and TypeScript web app that functions as a virtual bookshelf to track reading progress.
 * **The Output:** A basic boilerplate code structure with a simple App component and a list of book objects.
 * **The Four Notes:**
-  * **What changed in the prompt:** Added a specific goal, tech stack, and application type.
+  * **What changed in the prompt:** Added a specific goal, tech stack and application type.
   * **What improved in the output:** It stopped asking generic questions and generated actual, functional React/TypeScript component code.
-  * **What still failed:** The UI styling is completely missing, and it didn't include any external data fetching or API integration.
+  * **What still failed:** The UI styling is completely missing and it didn't include any external data fetching or API integration.
   * **What you would try next:** Add real context by integrating an external API (like Open Library).
 
 ---
 
 ## Version 2: Real Context
 * **The Prompt:** Build a React and TypeScript web app that functions as a virtual bookshelf to track reading progress. Integrate the Open Library API to search for books, but include request abort timeouts and payload limits to handle slow network responses.
-* **The Output:** A more detailed component that includes `fetch` calls to the Open Library search endpoint, basic error handling, and search input states.
+* **The Output:** A more detailed component that includes `fetch` calls to the Open Library search endpoint, basic error handling and search input states.
 * **The Four Notes:**
   * **What changed in the prompt:** Added real context regarding external API integration and edge-case handling (timeouts/payloads).
   * **What improved in the output:** It generated practical network handling code instead of just mock arrays.
-  * **What still failed:** The UI layout is messy, lacks styling structure, and the search results overflow without proper fallback UI for missing cover images.
+  * **What still failed:** The UI layout is messy, lacks styling structure and the search results overflow without proper fallback UI for missing cover images.
   * **What you would try next:** Add a specified output format and UI constraints.
 
 ---
 
 ## Version 3: Constraints & Specified Output Format
-* **The Prompt:** Build a React and TypeScript web app that functions as a virtual bookshelf to track reading progress. Integrate the Open Library API to search for books, with request abort timeouts and payload limits. Format the output as clean, modular component files separated into `App.tsx`, `BookSearch.tsx`, and `ShelfList.tsx`, and constrain styling to Tailwind CSS utility classes without external UI libraries.
+* **The Prompt:** Build a React and TypeScript web app that functions as a virtual bookshelf to track reading progress. Integrate the Open Library API to search for books, with request abort timeouts and payload limits. Format the output as clean, modular component files separated into `App.tsx`, `BookSearch.tsx` and `ShelfList.tsx`, and constrain styling to Tailwind CSS utility classes without external UI libraries.
 * **The Output:** Modular code split across three separate code blocks with Tailwind classes applied directly to the JSX.
 * **The Four Notes:**
   * **What changed in the prompt:** Added output format (file separation) and constraints (Tailwind CSS only, no heavy UI libraries).
@@ -49,7 +49,7 @@
 * **The Output:** Clean component files featuring explicit `interface Book` definitions and ternary checks for missing cover image URLs.
 * **The Four Notes:**
   * **What changed in the prompt:** Added quality criteria focusing on strict TypeScript typing and defensive UI rendering (image fallbacks).
-  * **What improved in the output:** The compilation errors from Version 3 disappeared, and the code handles missing data gracefully without breaking the layout.
+  * **What improved in the output:** The compilation errors from Version 3 disappeared and the code handles missing data gracefully without breaking the layout.
   * **What still failed:** It lacks usage instructions or setup steps on how to run it locally with Vite.
   * **What you would try next:** Add verification requirements and execution steps.
 
