@@ -28,5 +28,7 @@ The app gives users an accurate, real-time forecast of their medication supply, 
 
 # Bio & Contact / CTA
 
-* **Bio:** Front-End AI Engineer Intern at FlyRank AI building modern mobile and web interfaces with React, TypeScript, and AI-driven workflows.
-* **Contact & CTA:** Want to see the code or chat about a project? Check out my [GitHub repository](https://github.com/ZAIN-UL-ABDIN-GHANI) or reach out directly via email.
+# Bio & Contact / CTA
+
+* **Bio:** Front-End AI Engineer Intern at FlyRank AI. I build fast, clean web and mobile interfaces using React, TypeScript, and AI tools.
+* **Contact & CTA:** Check out my code on [GitHub](https://github.com/TehreemFarooq-cs) or reach out via email to talk about projects.
