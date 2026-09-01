@@ -1,6 +1,7 @@
 # Automation Workflow: Technical Article/Docs → Structured Study Notes
 
-**Task automated (from Workflow Audit):** Task 2 — Summarizing long technical articles, documentation, or API guides
+**Task automated (from Workflow Audit):** Task 2 - Summarizing long technical articles, documentation, or API guides
+
 **Tool used:** NotebookLM (source-grounded research assistant)
 
 ---
@@ -19,7 +20,7 @@ is isolated.                knowledge, no bleed
 
 **Handoffs:**
 - Gather → Synthesize: source must be fully processed (indexed) before querying, and all other sources toggled off to prevent cross-source bleed.
-- Synthesize → Draft: same step in NotebookLM — the fixed prompt controls both extraction and formatting in one query.
+- Synthesize → Draft: same step in NotebookLM - the fixed prompt controls both extraction and formatting in one query.
 - Draft → Review & Format: human reads the output, verifies it against the source, then manually copies it into Google Docs (no automated export).
 
 ---
@@ -50,7 +51,7 @@ Anything confusing, version-specific, deprecated, or worth double-checking later
 Stay strictly grounded in the source — do not add outside knowledge or assumptions.
 ```
 
-No other configuration, custom instructions, or tools were used — this is a single-prompt, single-tool pipeline by design, chosen because the "gather + synthesize + draft" work is naturally source-grounded and doesn't need a separate app/chaining tool like n8n.
+No other configuration, custom instructions, or tools were used - this is a single-prompt, single-tool pipeline by design, chosen because the "gather + synthesize + draft" work is naturally source-grounded and doesn't need a separate app/chaining tool like n8n.
 
 ---
 
