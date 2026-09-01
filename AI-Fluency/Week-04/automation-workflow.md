@@ -90,8 +90,14 @@ All 5 runs completed the format correctly with no cross-source contamination and
 
 ## 5. Known Failure Points & Required Human Review
 
-- **No automated export.** NotebookLM doesn't push output to Google Docs directly — every run ends with a manual copy-paste. This is the one step that can't be removed from human hands in this pipeline as built.
-- **Cross-source bleed risk.** If sources aren't manually toggled off before a query, NotebookLM will draw from every active source in the notebook, silently breaking the "grounded in this source only" requirement. This gets riskier as more sources accumulate in one notebook over time — worth watching if this notebook keeps growing past 5 sources.
-- **No relevance filtering.** The pipeline will happily generate well-formatted "study notes" even for a source that isn't really technical material (run #4, the battery-life listicle) — it doesn't flag "this doesn't really belong in a study-notes system," it just formats whatever it's given. A human has to decide upfront whether a source is worth running through the pipeline at all.
-- **Accuracy still requires a human check.** Grounding and citation reduce hallucination risk substantially, but code/API details should still be spot-checked against the source before being trusted for real reference use — especially version-specific claims (e.g. exact propagation times, deprecated APIs).
+- **No automated export.** NotebookLM doesn't push output to Google Docs directly - every run ends with a manual copy-paste. This is the one step that can't be removed from human hands in this pipeline as built.
+- **Cross-source bleed risk.** If sources aren't manually toggled off before a query, NotebookLM will draw from every active source in the notebook, silently breaking the "grounded in this source only" requirement. This gets riskier as more sources accumulate in one notebook over time - worth watching if this notebook keeps growing past 5 sources.
+- **No relevance filtering.** The pipeline will happily generate well-formatted "study notes" even for a source that isn't really technical material (run #4, the battery-life listicle) - it doesn't flag "this doesn't really belong in a study-notes system," it just formats whatever it's given. A human has to decide upfront whether a source is worth running through the pipeline at all.
+- **Accuracy still requires a human check.** Grounding and citation reduce hallucination risk substantially, but code/API details should still be spot-checked against the source before being trusted for real reference use - especially version-specific claims (e.g. exact propagation times, deprecated APIs).
 - **Untested at scale.** All 5 runs used reasonably short/medium sources. Very long documents (full API references, long specs) weren't tested and may hit context or synthesis-quality limits not observed here.
+
+---
+ 
+## 6. End-to-End Confirmation (Brand New Input)
+ 
+Confirmed the pipeline end-to-end on a 6th, previously untested source (JavaScript loops fundamentals — `for`, `while`, `do while` syntax and scoping). Same prompt, same steps, no modifications needed. Output held the four-section format, stayed accurate to the source and showed no cross-source bleed - confirming the pipeline generalizes beyond the 5 documented runs.
